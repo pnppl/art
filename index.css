@@ -67,6 +67,10 @@ p {
 	background-color: black;
 }
 
+#name {
+	line-height: 5px;
+}
+
 #clickpic {
 	background-color: transparent !important;
 }
