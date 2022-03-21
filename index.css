@@ -1,0 +1,78 @@
+* {
+	background-color:#1a1a1a;
+	color: #FFA900;
+	text-shadow: 0 0 7px #FFCC00;
+	font-family: 'Glass_TTY_VT220', monospace;
+	text-align: center;
+}
+
+a {
+	text-decoration-style: dashed;
+	text-decoration-thickness: 1px; 
+	
+}
+
+a:link { 
+	text-decoration-style: dashed;
+	text-decoration-thickness: 1px;
+ 	color: black;
+	background-color: #FFA900
+}
+
+
+a:visited {
+	background-color: black;
+}
+
+
+a:active { 
+	text-decoration-style: dotted; 
+	color: #FFA900;
+	background-color: black;
+}
+
+figcaption {
+	font-size: 20px;
+}
+
+footer {
+	font-size: 15px;
+}
+
+h1 {
+	font-size: 126px;
+}
+
+h2 {
+	font-size: 76px; 
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 39px; 
+	font-weight: normal;
+}
+
+input {
+	font-size: 30px !important;
+	background-color: black;
+}
+
+p {
+	font-size: 34px;
+}
+
+#heading {
+	line-height: 0px;
+	background-color: black;
+}
+
+#clickpic {
+	background-color: transparent !important;
+}
+
+
+@font-face {
+  font-family: 'Glass_TTY_VT220';
+  src: url(Glass_TTY_VT220_music.woff) format('woff');
+}
